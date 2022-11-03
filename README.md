@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [4-Card-Features](https://github.com/MohammadAlmadhi/4-Card-features)
+- Live Site URL: [live site](https://mohammadalmadhi.github.io/4-Card-features/)
 
 ## My process
 
