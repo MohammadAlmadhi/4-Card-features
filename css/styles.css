@@ -1,0 +1,119 @@
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --flex-gap: 20px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--Very-Light-Gray);
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.container {
+}
+.heading {
+  text-align: center;
+  padding: 50px 0;
+}
+.heading span {
+  font-size: 2rem;
+  color: var(--Grayish-Blue);
+}
+.heading h1 {
+}
+.heading p {
+  width: 450px;
+  color: var(--Grayish-Blue);
+  margin: 0 auto;
+}
+@media (max-width: 767px) {
+  .heading p {
+    width: 370px;
+  }
+}
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--flex-gap);
+}
+@media (max-width: 767px) {
+  .features {
+    flex-direction: column;
+  }
+}
+.features .feat {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 5px 9px 1px #00000030;
+  -moz-box-shadow: 0px 5px 9px 1px #00000030;
+  box-shadow: 0px 5px 9px 1px #00000030;
+}
+@media (max-width: 998px) {
+  .features .feat {
+    width: 195px;
+  }
+}
+.features .feat.supervisor {
+  border-top: 2px solid var(--Cyan);
+}
+.features .feat.team-builder {
+  border-top: 2px solid var(--Red);
+}
+.features .feat.karma {
+  border-top: 2px solid var(--Orange);
+}
+.features .feat.calculator {
+  border-top: 2px solid var(--Blue);
+}
+
+.features .feat h4 {
+  font-weight: 600;
+}
+.features .feat p {
+  font-size: 15px;
+  color: var(--Grayish-Blue);
+}
+.features .feat svg {
+  display: block;
+  margin: auto;
+  margin-right: 10px;
+}
+.features .stacked {
+  display: flex;
+  flex-direction: column;
+  gap: var(--flex-gap);
+}
